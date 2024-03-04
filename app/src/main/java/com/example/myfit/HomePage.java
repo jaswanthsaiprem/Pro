@@ -73,6 +73,10 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
             Intent intent5 = new Intent(HomePage.this, Splits.class);
             startActivity(intent5);
         }
+        else if (id == R.id.nav_about_us) {
+             Intent intent = new Intent(HomePage.this, AboutUsActivity.class);
+           startActivity(intent6);
+              }
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;

@@ -7,6 +7,7 @@ public class Profiles {
     Float weight;
     String gender;
     String email;
+    String Aboutus;
 
     public Profiles()
     {
@@ -60,4 +61,5 @@ public class Profiles {
     public void setEmail(String email) {
         this.email = email;
     }
+    
 }
